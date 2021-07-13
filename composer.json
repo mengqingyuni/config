@@ -1,0 +1,17 @@
+{
+    "name": "gongzhiyang/config",
+    "authors": [
+        {
+            "name": "gongzhiyang",
+            "email": "374314125@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "config\\": "src/"
+        }
+    }
+}
