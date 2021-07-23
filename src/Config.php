@@ -143,12 +143,14 @@ class Config
 
     /**
      * 检测配置参数
+     * @param null $name
+     * @return bool
      */
-    public static function has()
+    public  function has($name = null)
     {
+        if ($this->get($name)) return true;
+        return false;
 
     }
-
-
 
 }
